@@ -1,0 +1,65 @@
+# Configuración del proyecto Supabase (CLI).
+# El "project_id" es solo un nombre local; el proyecto remoto se vincula con:
+#   npx supabase link --project-ref TU_REF
+project_id = "praktika-ya"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 17
+
+[studio]
+enabled = true
+port = 54323
+
+[storage]
+enabled = true
+file_size_limit = "10MiB"
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173/restablecer"]
+jwt_expiry = 3600
+enable_signup = false   # las empresas se registran con la Edge Function registrar-empresa
+
+[auth.email]
+enable_signup = true
+enable_confirmations = false
+
+[edge_runtime]
+enabled = true
+policy = "per_worker"
+
+# Todas las funciones validan el usuario internamente (o son públicas con límite por IP),
+# así que se desactiva la verificación automática de JWT del gateway.
+[functions.postular]
+verify_jwt = false
+[functions.analizar-cv]
+verify_jwt = false
+[functions.cv-voz]
+verify_jwt = false
+[functions.consultar-documento]
+verify_jwt = false
+[functions.registrar-empresa]
+verify_jwt = false
+[functions.admin-empresas]
+verify_jwt = false
+[functions.enviar-correo]
+verify_jwt = false
+[functions.stripe-checkout]
+verify_jwt = false
+[functions.stripe-webhook]
+verify_jwt = false
+[functions.checkout-status]
+verify_jwt = false
+[functions.chatbot]
+verify_jwt = false
+[functions.sello]
+verify_jwt = false

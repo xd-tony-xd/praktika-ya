@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="660" viewBox="0 0 760 660" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Tu siguiente paso profesional</title>
+  <desc id="desc">Ilustración de una joven profesional usando una laptop con tarjetas de oportunidades y progreso profesional</desc>
+  <defs>
+    <linearGradient id="orb" x1="143" y1="76" x2="611" y2="546" gradientUnits="userSpaceOnUse"><stop stop-color="#DAF8FF"/><stop offset=".55" stop-color="#C6E4FF"/><stop offset="1" stop-color="#E6E3FF"/></linearGradient>
+    <linearGradient id="shirt" x1="284" y1="331" x2="477" y2="543" gradientUnits="userSpaceOnUse"><stop stop-color="#21C4D9"/><stop offset="1" stop-color="#3973E9"/></linearGradient>
+    <linearGradient id="laptop" x1="305" y1="399" x2="518" y2="536" gradientUnits="userSpaceOnUse"><stop stop-color="#172F5D"/><stop offset="1" stop-color="#0D1B39"/></linearGradient>
+    <linearGradient id="screen" x1="330" y1="413" x2="489" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#153469"/><stop offset="1" stop-color="#1A4A87"/></linearGradient>
+    <linearGradient id="card" x1="80" y1="155" x2="310" y2="258" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#F2FAFF"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="13"/><feOffset dy="10"/><feComponentTransfer><feFuncA type="linear" slope=".13"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="25"/></filter>
+  </defs>
+  <ellipse cx="391" cy="324" rx="238" ry="231" fill="url(#orb)"/>
+  <ellipse cx="391" cy="324" rx="270" ry="265" stroke="#fff" stroke-opacity=".7" stroke-width="2" stroke-dasharray="4 13"/>
+  <circle cx="587" cy="180" r="49" fill="#B9F5F0" opacity=".72" filter="url(#soft)"/>
+  <path d="M159 377c52-116 119-177 230-177 96 0 180 49 225 130" stroke="#fff" stroke-opacity=".68" stroke-width="3" stroke-linecap="round"/>
+  <path d="M179 420c84 61 219 86 353 32" stroke="#91B8FF" stroke-opacity=".55" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 11"/>
+  <circle cx="170" cy="333" r="6" fill="#29C6DA"/><circle cx="605" cy="377" r="7" fill="#8072F2"/><circle cx="548" cy="131" r="4" fill="#2CBFD7"/>
+  <!-- desk plant -->
+  <path d="M212 475c-22-43-19-71 7-91 18 30 15 60-7 91Z" fill="#52C5A3"/>
+  <path d="M218 477c-9-53 3-86 37-98 9 37-4 69-37 98Z" fill="#27A98D"/>
+  <path d="M217 483c-34-34-40-63-18-91 27 22 33 53 18 91Z" fill="#86D7A9"/>
+  <path d="M189 478h67l-9 48h-49l-9-48Z" fill="#E99070"/><rect x="186" y="477" width="73" height="12" rx="6" fill="#F4AD86"/>
+  <!-- person -->
+  <path d="M313 346c8-49 44-76 91-76 50 0 83 30 90 85l12 120-191 5-2-134Z" fill="url(#shirt)"/>
+  <path d="M347 281c1-38 25-66 61-66 35 0 59 26 59 63 0 39-27 65-61 65-36 0-60-25-59-62Z" fill="#F3B28C"/>
+  <path d="M346 282c-5-58 29-91 74-91 45 0 74 31 67 86-13-7-21-17-27-31-18 17-50 28-94 25l-3 35c-10-5-16-13-17-24Z" fill="#14264A"/>
+  <path d="M354 251c8-36 36-57 69-54 27 2 45 18 53 46-23-11-37-23-44-38-14 20-40 36-78 46Z" fill="#1D3768"/>
+  <path d="M370 274c6 4 13 4 18 0M423 273c6 4 13 4 18 0" stroke="#7C493E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M398 298c8 5 17 5 25 0" stroke="#D87970" stroke-width="3" stroke-linecap="round"/>
+  <path d="M330 356c-25 10-39 32-48 64l-11 39c-4 15 5 27 18 27 10 0 15-6 20-17l23-51 29-27-31-35Z" fill="#F3B28C"/>
+  <path d="M467 356c25 8 44 30 55 60l17 44c6 15-1 28-14 30-11 2-19-4-24-15l-27-51-29-23 22-45Z" fill="#F3B28C"/>
+  <!-- laptop -->
+  <path d="M311 399c0-8 6-14 14-14h176c8 0 14 6 14 14v116H311V399Z" fill="url(#laptop)"/>
+  <rect x="324" y="398" width="178" height="104" rx="8" fill="url(#screen)"/>
+  <rect x="339" y="412" width="69" height="7" rx="3.5" fill="#8BDCF7"/>
+  <rect x="339" y="428" width="37" height="5" rx="2.5" fill="#6689C8"/>
+  <rect x="339" y="446" width="48" height="37" rx="7" fill="#234A82"/>
+  <path d="m347 473 10-11 8 6 13-15" stroke="#51E7D0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="397" y="446" width="91" height="7" rx="3.5" fill="#7898CD"/>
+  <rect x="397" y="461" width="73" height="6" rx="3" fill="#4D72AE"/>
+  <rect x="397" y="476" width="82" height="6" rx="3" fill="#4D72AE"/>
+  <path d="M285 514h253l26 17c4 3 2 9-4 9H265c-6 0-8-6-3-9l23-17Z" fill="#AFC3E2"/>
+  <path d="M285 514h253" stroke="#E9F2FF" stroke-width="3"/>
+  <!-- floating opportunity card -->
+  <g filter="url(#shadow)">
+    <rect x="60" y="126" width="236" height="127" rx="23" fill="url(#card)"/>
+    <rect x="78" y="145" width="43" height="43" rx="14" fill="#E4F7FF"/>
+    <path d="M90 160h20v16H90zM95 156v-3h10v3" stroke="#2784E8" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="132" y="161" fill="#71839F" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">NUEVA OPORTUNIDAD</text>
+    <text x="79" y="214" fill="#172B4D" font-family="Arial,sans-serif" font-size="17" font-weight="700">Practicante de marketing</text>
+    <text x="79" y="235" fill="#71839F" font-family="Arial,sans-serif" font-size="12">Lima · Híbrido</text>
+    <circle cx="268" cy="225" r="13" fill="#E3F7F3"/><path d="m262 225 4 4 8-9" stroke="#20A98E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- matching profile card -->
+  <g filter="url(#shadow)">
+    <rect x="511" y="270" width="188" height="91" rx="21" fill="white"/>
+    <circle cx="543" cy="306" r="17" fill="#E7EEFF"/><path d="M536 306h14M543 299v14" stroke="#526FEB" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="570" y="303" fill="#72819A" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">PERFIL DESTACADO</text>
+    <text x="570" y="325" fill="#172B4D" font-family="Arial,sans-serif" font-size="14" font-weight="700">¡Vas por buen camino!</text>
+    <rect x="535" y="339" width="140" height="6" rx="3" fill="#E8EEF8"/><rect x="535" y="339" width="108" height="6" rx="3" fill="#46CBB5"/>
+  </g>
+  <!-- progress badge -->
+  <g filter="url(#shadow)">
+    <rect x="476" y="445" width="194" height="76" rx="20" fill="white"/>
+    <rect x="493" y="462" width="42" height="42" rx="13" fill="#F0ECFF"/>
+    <path d="M503 494v-9l7-6 6 4 9-11" stroke="#7665E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="546" y="477" fill="#73819A" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">TU SIGUIENTE PASO</text>
+    <text x="546" y="498" fill="#172B4D" font-family="Arial,sans-serif" font-size="14" font-weight="700">Está más cerca</text>
+  </g>
+</svg>

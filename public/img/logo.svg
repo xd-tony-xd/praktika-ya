@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="190" viewBox="0 0 820 190" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Práctika ya — Talento que empieza</title>
+  <desc id="desc">Propuesta moderna y llamativa para la plataforma de convocatorias preprofesionales Práctika ya</desc>
+  <defs>
+    <linearGradient id="tile" x1="18" y1="12" x2="174" y2="176" gradientUnits="userSpaceOnUse"><stop stop-color="#172B64"/><stop offset="1" stop-color="#07152F"/></linearGradient>
+    <linearGradient id="electric" x1="40" y1="35" x2="153" y2="149" gradientUnits="userSpaceOnUse"><stop stop-color="#48F4FF"/><stop offset=".52" stop-color="#36A8FF"/><stop offset="1" stop-color="#8A5CFF"/></linearGradient>
+    <linearGradient id="ya" x1="671" y1="62" x2="774" y2="127" gradientUnits="userSpaceOnUse"><stop stop-color="#00D5F2"/><stop offset="1" stop-color="#6670FF"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="9" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="17" y="16" width="158" height="158" rx="48" fill="url(#tile)" stroke="#354F93" stroke-width="2"/>
+  <path d="M52 136V54h39c22 0 35 12 35 31s-13 31-35 31H73" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m72 125 27-25 19 16 28-35" stroke="url(#electric)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M132 81h14v14" stroke="#53F2FF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="72" cy="125" r="5.5" fill="#54F4FF" filter="url(#glow)"/>
+  <path d="M37 43c9-12 21-20 36-24" stroke="#56EFFF" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+  <circle cx="45" cy="34" r="4" fill="#56EFFF"/>
+  <text x="205" y="105" fill="#11234A" font-family="Inter, Outfit, Arial, sans-serif" font-size="67" font-weight="850" letter-spacing="-3.2">Práctika</text>
+  <rect x="660" y="54" width="112" height="61" rx="23" fill="url(#ya)"/>
+  <text x="716" y="96" text-anchor="middle" fill="white" font-family="Inter, Outfit, Arial, sans-serif" font-size="34" font-weight="850" letter-spacing="1">YA</text>
+  <path d="M208 127h48" stroke="#29C9F3" stroke-width="4" stroke-linecap="round"/>
+  <text x="271" y="137" fill="#66789D" font-family="Inter, Outfit, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2.4">CONVOCATORIAS PREPROFESIONALES</text>
+  <circle cx="620" cy="132" r="3" fill="#7C62FF"/><circle cx="636" cy="132" r="3" fill="#37C9F7"/><circle cx="652" cy="132" r="3" fill="#37C9F7" opacity=".5"/>
+</svg>

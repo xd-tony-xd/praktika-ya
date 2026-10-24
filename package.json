@@ -1,0 +1,29 @@
+{
+  "name": "praktika-ya",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "preview": "vite preview",
+    "db:push": "supabase db push",
+    "functions:deploy": "supabase functions deploy",
+    "secrets:set": "supabase secrets set --env-file supabase/.env"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "supabase": "^2.20.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

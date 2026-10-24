@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Práctika ya</title>
+  <desc id="desc">Símbolo de Práctika ya: una ruta profesional ascendente</desc>
+  <defs><linearGradient id="tile" x1="13" y1="8" x2="112" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#2868F0"/><stop offset="1" stop-color="#173BB8"/></linearGradient></defs>
+  <rect x="5" y="5" width="118" height="118" rx="34" fill="url(#tile)"/>
+  <path d="M36 94V34h29c17 0 27 9 27 24S82 82 65 82H52" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m52 82 20-18 14 11 17-20" stroke="#65F2E2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M94 55h9v9" stroke="#65F2E2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
